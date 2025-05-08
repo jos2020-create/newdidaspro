@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Didaspros - Academic Writing</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>html {
+  scroll-behavior: smooth;
+
+}<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+body {
+  padding-top: 80px; /* Prevent header from overlapping hero */
+}
+
+    body {
+   .bg-services {
+  background-image: url('.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:black;
+  padding: 60px 20px;
+}
+##191970
+      background-color:BLACK;
+      font-family: 'Segoe UI', sans-serif;
+<header class="fixed-top bg-white border-bottom shadow-sm">
+  <div class="container d-flex justify-content-between align-items-center py-2">
+    <h4 class="mb-0">Didaspros color:blue;</h4>
+    <nav>
+      <a href="#services" class="text-white mx-2 text-decoration-none">Services</a>
+      <a href="#contact" class="text-white mx-2 text-decoration-none">Order</a>
+      <a href="login.html" class="btn btn-outline-light btn-sm ms-3">Login / Sign Up</a>
+    </nav>
+  </div>
+
+</header>
+
+    }
+    .hero {
+      background-color:  #99ccff;
+      color:black;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .section {
+    color: blue;
+  background-color:  #99ccff;
+      padding: 40px 20px;
+    }
+    .footer {
+      background-color:  #99ccff;
+      color: BLACK;
+      text-align: center;
+      padding: 20px;
+    }
+    label {
+      font-weight: 500;
+    }
+  </style>
+<link rel="icon" type="image/png" href="download - Copy.png">
+</head>
+<body>
+<header class="fixed-top bg-white border-bottom shadow-sm">
+  <div class="container d-flex justify-content-between align-items-center py-3">
+    <!-- Logo/Brand -->
+    <a href="#" class="text-dark text-decoration-none d-flex align-items-center">
+      <img src="download - Copy.png" alt="Didaspros Logo" height="40" class="me-2">
+      <h4 class="mb-0">Didaspros</h4>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="d-flex align-items-center">
+      <a href="#services" class="text-dark mx-3 text-decoration-none">Services</a>
+      <a href="#contact" class="text-dark mx-3 text-decoration-none">Order</a>
+
+      <!-- Dropdown -->
+      <div class="dropdown mx-3">
+        <a class="text-dark text-decoration-none dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+          More
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+          <li><a class="dropdown-item" href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Login Button -->
+      <a href="login.html" class="btn btn-primary btn-sm ms-3">Login / Sign Up</a>
+    </nav>
+  </div>
+</header>
+
+
+   
+   <div class="hero bg-services position-relative">
+  <div class="position-absolute top-0 start-0 m-2">
+    
+ <a href="#contact" class="btn btn-primary mt-3">Order Now</a>
+
+  </div>
+  <h1>Welcome to Didaspros</h1>
+  <p>Your trusted academic writing partner</p>
+<p>we craft academic success. Whether you're racing against a tight deadline or striving for top-tier quality, our expert writers deliver original, polished papers tailored precisely to your needs. From essays and dissertations to editing and proofreading, we combine deep subject knowledge with unmatched writing precision. Join thousands of students who trust Didaspros to elevate their academic journey — because when your future is on the line, only excellence will do.</p>
+<a href="login.html" class="btn btn-outline-light cente-align;">Login / Sign Up</a>
+  <a href="#contact" class="btn btn-primary mt-3">Order Now</a>
+</div><div class="section">
+<section id="contact" class="contact section">
+    <h2 class="text-center">Contact Us / Order Now</h2><form id="orderForm" action="ildamagalhaes80@gmail.com" method="POST" enctype="multipart/form-data">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label for="name">Your Name</label>
+            <input class="form-control" type="text" name="name" required>
+          </div>
+          <div class="col-md-6">
+            <label for="email">Email address</label>
+            <input class="form-control" type="email" name="email" required>
+          </div>
+          <div class="col-md-6">
+            <label>Type of Service</label>
+            <select class="form-control" name="service">
+              <option>Essay Writing</option>
+              <option>Dissertation Help</option>
+              <option>Editing & Proofreading</option></section>
+            </select>
+          </div>
+<div class="col-md-6">
+            <label>Academic Level</label>
+            <select class="form-control" id="academicLevel" onchange="calculatePrice()">
+              <option value="1">Undergraduate</option>
+              <option value="1.5">Master's</option>
+              <option value="2">PhD</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label>Number of Pages</label>
+            <input type="number" class="form-control" id="pages" value="1" onchange="calculatePrice()" min="1">
+          </div>
+          <div class="col-md-6">
+            <label>Urgency</label>
+            <select class="form-control" id="urgency" onchange="calculatePrice()">
+              <option value="1">7+ days</option>
+              <option value="1.5">3-6 days</option>
+              <option value="2">24-48 hours</option>
+            </select>
+          </div>
+          <div class="col-md-12">
+            <label>Upload Additional Materials</label>
+            <input class="form-control" type="file" name="attachment">
+          </div>
+          <div class="col-md-12">
+            <label>Paper Details</label>
+            <textarea class="form-control" name="details" rows="4" required></textarea>
+          </div>
+          <div class="col-md-12 text-center">
+            <h4>Total Price:GBP$ <span id="price">30.00</span></h4>
+            <button class="btn btn-primary mt-3" type="submit">Submit Order</button>
+
+<p>WE ACCEPT</p>
+<img src="Visa_2021.svg.png"alt="visa" height="20" class="me-2"><img src="MasterCard_Logo.svg.png"alt="mastercard" height="20" class="me-2"><img src="download.png"alt="visa" height="25" class="me-2"><img src="PayPal-Logo-History-1-1155x770.png"alt="visa" height="27" class="me-2">
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+ <section class="services py-5 bg-light" id="services">
+  <div class="container">
+    <div class="row">
+
+      <!-- Our Services Column -->
+      <div class="col-md-6 mb-4">
+        <h2 class="text-primary mb-4">Our Services</h2>
+        <div class="mb-3">
+          <h5>Essay Writing</h5>
+          <p>High-quality custom essays tailored to your requirements.</p>
+        </div>
+        <div class="mb-3">
+          <h5>Dissertation Help</h5>
+          <p>Expert guidance and writing support for your dissertation.</p>
+        </div>
+        <div class="mb-3">
+          <h5>Editing & Proofreading</h5>
+          <p>Polish your academic work with our editing services.</p>
+        </div>
+      </div>
+
+      <!-- Why Choose Us Column -->
+      <div class="col-md-6 mb-4">
+        <h2 class="text-primary mb-4">Why Choose Us</h2>
+        <div class="card shadow-sm mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Plagiarism-Free</h5>
+            <p class="card-text">Every paper is 100% original and written from scratch to meet your exact requirements.</p>
+          </div>
+        </div>
+        <div class="card shadow-sm mb-3">
+          <div class="card-body">
+            <h5 class="card-title">On-Time Delivery</h5>
+            <p class="card-text">We respect your deadlines and ensure timely delivery for every order—no excuses.</p>
+          </div>
+        </div>
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Qualified Writers</h5>
+            <p class="card-text">Our team is made up of experienced academic experts across multiple disciplines.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    
+          
+
+  <div class="section bg-light">  
+
+      <h2 class="text-center">REVIEWS</h2>
+    <blockquote class="blockquote text-center">
+      <p>"Didaspros helped me finish my dissertation on time with excellent quality. Highly recommend!"</p>
+      <footer class="blockquote-footer">Sarah M.</footer>
+    </blockquote>
+    <blockquote class="blockquote text-center">
+  <p>“I’ve tried other writing services before, but none compare to Didaspros. Their writers actually understand academic standards and citation styles. I’ve ordered essays, reports, and even a dissertation — all top quality.”</p>
+<footer class="blockquote-footer"> Priya M., University of Toronto</footer>
+    <blockquote class="blockquote text-center">
+  <p>"Professional service and amazing results. I’ll definitely use Didaspros again!"</p>
+      <footer class="blockquote-footer">James T.</footer>
+    </blockquote>
+  </div>
+
+  
+  <div class="footer">
+   <p>contact: +447494318569 </p>
+   <p>Email: support@didaspros.com</p>
+  <p>&copy; 2025 Didaspros. All rights reserved.</p>
+  </div>
+
+  <script>
+    function calculatePrice() {
+      const pages = parseInt(document.getElementById('pages').value || 1);
+      const level = parseFloat(document.getElementById('academicLevel').value);
+      const urgency = parseFloat(document.getElementById('urgency').value);
+      const baseRate = 10; // $10 per page base
+      const price = pages * baseRate * level * urgency;
+      document.getElementById('price').innerText = price.toFixed(2);
+    }
+
+    window.onload = calculatePrice;
+  </script>
+</body>
+</html>
